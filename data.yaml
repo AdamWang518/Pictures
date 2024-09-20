@@ -1,0 +1,6 @@
+train: D:/Github/Pictures/sliced/train/images
+val: D:/Github/Pictures/sliced/valid/images
+test: D:/Github/Pictures/sliced/test/images
+
+nc: 1
+names: ['boat']
