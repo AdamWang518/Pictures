@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-09-20T03:39:25.207897",
+    "startedAt": "2024-09-20T03:39:25.107589",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "d:\\Github\\Pictures\\cropTrain.py",
+    "codePathLocal": "cropTrain.py",
+    "codePath": "cropTrain.py",
+    "git": {
+        "remote": null,
+        "commit": "2dc20666b3cec0e21f7ac23b6edaf9fdd1d627cf"
+    },
+    "email": "dodoga518@gmail.com",
+    "root": "D:/Github/Pictures",
+    "host": "LAPTOP-CKUE9CLC",
+    "username": "USER",
+    "executable": "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.4960899353027,
+            "used": 465.72115325927734
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.72643280029297
+    }
+}
