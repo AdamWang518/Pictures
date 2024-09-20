@@ -11,9 +11,8 @@ def main():
     # 配置训练参数
     data_path = 'data.yaml'  # 请替换成你的数据集配置文件路径
     epochs = 100  # 训练的轮数，可以根据需要调整
-    batch = 16  # 批次大小
-    # img_size = 640  # 图片大小
-    img_size = 1280  # 图片大小
+    batch = 32  # 批次大小
+    img_size = 640  # 图片大小
     learning_rate = 0.01  # 学习率
 
     # 开始训练
