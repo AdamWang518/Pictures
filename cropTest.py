@@ -80,15 +80,15 @@ def main():
     print(f"使用设备: {device}")
 
     # 加载模型
-    model = YOLO('best_yolov10n_model.pt')  # 替换为你的模型路径
+    model = YOLO('best_10n_final.pt')  # 替换为你的模型路径
     model.to(device)
 
     # 类别名称（根据你的数据集进行修改）
     class_names = ['boat']  # 替换为你的类别名称列表
 
     # 输入和输出文件夹路径
-    input_folder = 'D:\\MEGA\\DataSet\\Ships\\renamed_ships'  # 替换为你的输入图片文件夹路径
-    output_folder = 'D:\\MEGA\\DataSet\\ShipsOut'  # 替换为你的输出文件夹路径
+    input_folder = 'D:\\MEGA\\DataSet\\randomPick\\0811'  # 替换为你的输入图片文件夹路径
+    output_folder = 'D:\\MEGA\\DataSet\\ShipsSliceOut\\0811newTest'  # 替换为你的输出文件夹路径
 
     # 创建输出文件夹（如果不存在）
     os.makedirs(output_folder, exist_ok=True)
