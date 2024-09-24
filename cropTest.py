@@ -87,8 +87,8 @@ def main():
     class_names = ['boat']  # 替换为你的类别名称列表
 
     # 输入和输出文件夹路径
-    input_folder = 'D:\\MEGA\\DataSet\\randomPick\\0811'  # 替换为你的输入图片文件夹路径
-    output_folder = 'D:\\MEGA\\DataSet\\ShipsSliceOut\\0811newTest'  # 替换为你的输出文件夹路径
+    input_folder = 'D:\\MEGA\\DataSet\\randomPick3\\0815'  # 替换为你的输入图片文件夹路径
+    output_folder = 'D:\\MEGA\\DataSet\\ShipsSliceOut\\0815'  # 替换为你的输出文件夹路径
 
     # 创建输出文件夹（如果不存在）
     os.makedirs(output_folder, exist_ok=True)
